@@ -11,7 +11,7 @@ services:
         privileged: false
         shm_size: "8gb"
         environment:
-            - TZ=America/New_York
+            - TZ=Asia/Bangkok
             - PUID=99
             - PGID=100
             - MULTI_PORT_START=0
