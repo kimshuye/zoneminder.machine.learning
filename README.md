@@ -104,3 +104,18 @@ If you have a situation where the container fails to start, you can set `NO_STAR
 service mysql start
 service zoneminder start
 ```
+
+
+### Referents
+
+
+[zoneminder document](https://zoneminder.readthedocs.io/en/stable/installationguide/easydocker.html)
+
+
+[Installing ZoneMinder 1.34 Ubuntu Bionic 18.04 from youtube](https://youtu.be/RhBsW8HkOG4)
+
+
+[zmNinja - Home Security Camera App for Zoneminder - Part 3 from youtube](https://youtu.be/DKwUDF0MW5w)
+
+
+
