@@ -2,9 +2,13 @@ version: '3.1'
 services:
     zoneminder:
         container_name: zoneminder
-        image: dlandon/zoneminder.machine.learning:latest
+        # image: dlandon/zoneminder.machine.learning:latest
+        build:
+            context: .
+            dockerfile: docker/Dockerfile
         restart: unless-stopped
         ports:
+            - 0880:80/tcp
             - 8443:443/tcp
             - 9000:9000/tcp
         network_mode: "bridge"
