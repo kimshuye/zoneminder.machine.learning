@@ -21,8 +21,9 @@ services:
             - MULTI_PORT_START=0
             - MULTI_PORT_END=0
         volumes:
-            - config:/config:rw
-            - data:/var/cache/zoneminder:rw
-volumes:
-    config:
-    data:
+            - /mnt/appdata/Zoneminder/config:/config:rw
+            - /mnt/appdata/Zoneminder/data:/var/cache/zoneminder:rw
+            
+# volumes:
+#     config:
+#     data:
